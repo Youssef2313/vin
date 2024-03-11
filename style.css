@@ -1,0 +1,826 @@
+*{
+    box-sizing: border-box;
+}
+body{   
+    display: flow-root;
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#div{
+    background-color: rgb(4, 167, 167);
+    border: 4px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    margin-bottom: 25px;
+    height: 80px;
+    width: 600px;
+    margin: auto;
+    animation-name: fadeOut;
+    animation-duration: 5s;
+}
+@keyframes fadeOut{
+    0%{opacity: 0}
+    100%{opacity: 1;}
+}
+#div h1{
+    margin: auto;
+    width: 500px;
+}
+#div h2{
+    margin: auto;
+    width: 300px;
+}
+#p1{
+    background-color: rgb(189, 44, 44);
+    border: 5px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    width: 600px;
+    height: 90px;
+    overflow: hidden;
+    font-size: 40px;
+    margin-bottom: 15px;
+    display: inline-block;
+    transition: all ease-in-out 1s;
+}
+#p1 h3{
+    margin-top: 10px;
+}
+#p1 p{
+    position: relative;
+    bottom: 90px;
+}
+#p1:hover{
+    width:100%;
+    height: 300px;
+    font-size: 30px;
+}
+#p2{
+    background-color:#9370d8;
+    border: 4px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    width: 700px;
+    height: 90px;
+    overflow: hidden;
+    font-size: 40px;
+    display: block;
+    transition: all ease-in-out 1s;
+    margin-bottom: 50px;
+}
+#p2 h3{
+    margin-top: 10px;
+}
+#p2 p{
+    position: relative;
+    bottom: 80px;
+}
+#p2:hover{
+    width: 100%;
+    height: 300px;
+    font-size: 30px;
+}
+#p3{
+    color: black;
+    background-color:#EB5022;
+    border: rgb(0, 0, 0) 4px solid;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    width: 700px;
+    display: block;
+    font-size: 40px;
+    overflow: hidden;
+    transition: all ease-in-out 1s;
+    height: 90px;
+    position: relative;
+    bottom: 20px;
+}
+#p3 h3{
+    margin-top: 10px;
+}
+#p3 p{
+    position: relative;
+    bottom: 70px;
+}
+#p3:hover{
+    width: 100%;
+    height: 200px;
+    font-size: 30px;
+}
+#box1{
+    box-shadow: 10px 10px 10px;
+    width: 520px;
+    height: 100px;
+    overflow: hidden;
+    background-color: white;
+    border: 4px solid;
+    background-color: rgb(182, 230, 230);
+    border-radius: 5px;
+    font-size: 40px;
+    display: block;
+    transition: all ease-in-out 1s;
+}
+#box1 h3{
+    margin-top: 15px;
+}
+#box1:hover{
+    width: 100%;
+    height: 400px;
+    font-size: 30px;
+}
+#box_hr{
+    border: 2px solid;
+}
+#of{
+    overflow: auto;
+    border: 4px solid;
+    height: 100px;
+    box-shadow: 10px 10px 10px;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#div1{
+    box-shadow: 10px 10px 10px;
+    width: 500px;
+    height: 90px;
+    border: 4px solid;
+    background-color: rgb(255, 171, 62);
+    border-radius: 5px;
+    overflow:hidden;
+    font-size: 40px;
+    border: 4px solid;
+    transition: all ease-in-out 1s;
+    display: block;
+}
+#div1:hover{
+    width: 100%;
+    height: 550px;
+    font-size: 35px;
+}
+#div1 hr{
+    border: 4px solid black;
+}
+.Height{
+    margin-top:0px;
+}
+.rog{
+    margin-top: 3px;
+}
+#meow{
+    box-shadow: 10px 10px 10px;
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    background-color: rgb(104, 175, 11);
+    border-radius: 5px;
+    margin: auto;
+    width: 500px;
+    height: 80px;
+    font-size: 40px;
+    overflow:hidden;
+    transition: all ease-in-out 1s;
+    display: block;
+}
+#meow:hover{
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+}
+#meow h3{
+    margin-top: 10px;
+    text-align: center;
+}
+#meow p{
+    position: relative;
+    bottom: 30px;
+    right: 5px;
+    text-align: center;
+}
+#mod1{
+    box-shadow: 10px 10px 10px;
+    width: 650px;
+    height: auto;
+    background-color: white;
+    border: 4px solid;
+    font-size: 25px;
+    background-color: rgb(182, 230, 230);
+    border-radius: 5px;
+    position: 10px;
+    top: 10px;
+}
+.box5{
+    height: 80px;
+    width: 600px;
+    box-shadow: 10px 10px 10px;
+    font-size: 40px;
+    border: 4px solid;
+    background-color: rgb(170, 235, 86);
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: 55px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all ease-in-out 1s;
+    display: inline-block;
+}
+.box5:hover{
+    width: 100%;
+    height: 300px;
+    font-size: 30px;
+    position: relative;
+    left: 0px;
+}
+.box5 img{
+    position: relative;
+    bottom: 20px;
+}
+#div5{
+    box-shadow: 10px 10px 10px;
+    border: 4px solid;
+    background-color: rgb(103, 219, 200);
+    border-radius: 5px;
+    width: 250px;
+    height: 90px;
+    margin-top: 30px;
+    overflow: hidden;
+    display: block;
+    font-size: 40px;
+    transition: all ease-in-out 1s;
+}
+#div5 h3{
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+#div5 p{
+    position: relative;
+    bottom: 20px;
+}
+#div5:hover{
+   width: 100%;
+   height: 180px;
+   font-size: 30px;
+}
+#div6{
+    box-shadow: 10px 10px 10px;
+    border: 4px solid;
+    background-color: rgb(13, 150, 150);
+    border-radius: 5px;
+    width: 500px;
+    font-size: 40px;
+    height: 100px;
+    overflow: hidden;
+    display: block;
+    transition: all ease-in-out 1s;
+}
+#div6 h3{
+    margin-top: 5px;
+    font-size: 1.3em;
+    position: relative;
+    bottom: 20px;
+}
+#div6 p{
+    position: relative;
+    bottom: 50px;
+}
+#div6:hover{
+    width: 100%;
+    height: 320px;
+    font-size: 30px;
+}
+#cel{
+    clear: both;
+}
+
+#div2{
+    background-color: rgb(0, 162, 255);
+    border: 4px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    margin-bottom: 25px;
+    height: 90px;
+    font-size: 40px;
+    overflow: hidden;
+    width: 400px;
+    display: block;
+    transition: all ease-in-out 1s;
+}
+#div2 img{
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+    height: 500px;
+    width: auto;
+} 
+#div2:hover{
+    width: 100%;
+    height: 450px;
+    font-size: 30px;
+}
+#div2 p{
+    position: relative;
+    bottom: 20px;
+}
+#div2 h3{
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+#box9{
+    border: 3px solid;
+    width: 100px;
+    height: auto;
+    box-sizing: none;
+    background-color: rgb(255, 255, 255);
+    transition: all ease-in-out 1s;
+    display: block;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+}
+#box9:hover{
+    font-size: 1.5em;
+    width: 150px;
+    background-color: rgb(157, 219, 255);
+}
+#box8{
+    border: 3px solid;
+    width: 100px;
+    height: auto;
+    box-sizing: none;
+    background-color: rgb(255, 255, 255);
+    transition: all ease-in-out 1s;
+    display: block;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+}
+#box8:active{
+    font-size: 1.5em;
+    background-color: rgb(145, 205, 240);
+    width: 150px;
+}
+#div3{
+    background-color: rgb(255, 230, 0);
+    border: 4px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    margin-bottom: 25px;
+    height: 90px;
+    font-size: 40px;
+    overflow: hidden;
+    width: 440px;
+    display: block;
+    transition: all ease-in-out 1s;
+}
+#div3:hover{
+    width: 100%;
+    height: 130px;
+    font-size: 30px;
+}
+#div3 p{
+    position: relative;
+    bottom: 28px;
+}
+#div3 h3{
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+#div4{
+    background-color: rgb(131, 96, 163);
+    border: 4px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    margin-bottom: 25px;
+    height: 90px;
+    overflow: hidden;
+    font-size: 40px;
+    width: 300px;
+    display: block;
+    transition: all ease-in-out 1s;
+}
+#div4:hover{
+    width: 100%;
+    height: 200px;
+    font-size: 30px;
+}
+#div4 h3{
+    margin-top: 10px;
+}
+#div4 p{
+    position: relative;
+    bottom: 25px;
+}
+#div4 a{
+    margin-left: 65px;
+    text-decoration: none;
+    color: black;
+}
+#div9{
+    background-color: rgb(185, 185, 185);
+    border: 4px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    margin-bottom: 25px;
+    height: 90px;
+    width: 400px;
+    font-size: 40px;
+    overflow: hidden;
+    display: inline-block;
+    transition: all ease-in-out 1s;
+}
+#div9:hover{
+    width: 100%;
+    height: 250px;
+    font-size: 30px;
+}
+#div9 h3{
+    margin-top: 10px;
+}
+#div9 p{
+    position: relative;
+    bottom: 20px;
+}
+#div9 a{
+    text-decoration: none;
+    padding: 10px 50px;
+    color: white;
+    display: block;
+    text-align: centers;
+}
+#div9 a:hover{
+    background-color: rgb(8, 8, 8);
+}
+#div9 ul{
+    background-color: rgb(46, 46, 46);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#div9 li{
+    float: left;
+}
+#div10{
+    background-color: rgb(0, 0, 0);
+    border: 4px solid;
+    color: white;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 25px;
+    font-size: 40px;
+    overflow: hidden;
+    height: 90px;
+    width: 550px;
+    display: block;
+    transition: all ease-in-out 1s;
+}
+#div10:hover{
+    width: 100%;
+    height: 450px;
+    font-size: 25px;
+}
+#div10 h3{
+    margin-top: 10px;
+}
+#div10 h5{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+#div11{
+    background-color: rgb(255, 255, 255);
+    border: 4px solid;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 25px;
+    height: 90px;
+    overflow: hidden;
+    font-size: 40px;
+    width: 430px;
+    display: block;
+    transition: all ease-in-out 1s;
+}
+#div11 h3{
+    margin-top: 10px;
+}
+#div11 p{
+    position: relative;
+    bottom: 25px;
+}
+#div11:hover{
+    width: 100%;
+    height: 1650px;
+    font-size: 30px;
+}
+#div11 #box10{
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(113, 164, 223);
+    border: 3px solid black;
+    width: 100px;
+    transform: translateY(-40px);
+}
+#div11 #box3{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 2em;
+    font-style: bold;
+    text-align: center;
+    background-color: rgb(113, 164, 223);
+    border: 3px solid black;
+    width: 100px;
+    transform: rotateX(180deg);
+}
+#div11 #box2{
+    position: relative;
+    left: 50px;
+    font-size: 2em;
+    font-style: bold;
+    text-align: center;
+    background-color: rgb(113, 164, 223);
+    border: 3px solid black;
+    width: 100px;
+    transform: scaleX(2);
+}
+#div11 #box4{
+    position: relative;
+    bottom: 20px;
+    left: 220px;
+    font-size: 2em;
+    font-style: bold;
+    text-align: center;
+    background-color: rgb(113, 164, 223);
+    border: 3px solid black;
+    width: 100px;
+    transform: scaleY(2);
+}
+#div11 #box6{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: 2em;
+    font-style: bold;
+    text-align: center;
+    background-color: rgb(113, 164, 223);
+    border: 5px solid black;
+    width: 100px;
+    transform: skewX(35deg);
+}
+#div11 #box7{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 2em;
+    font-style: bold;
+    text-align: center;
+    background-color: rgb(113, 164, 223);
+    border: 5px solid black;
+    width: 100px;
+    transform: skewY(35deg);
+}
+#div12{
+    background-color: rgb(107, 245, 183);
+    border: 4px solid;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 25px;
+    height: 100px;
+    overflow: hidden;
+    font-size: 45px;
+    width: 350px;
+    display: block;
+    transition: all ease-in-out 1s;
+}
+#div12:hover{
+    width: 100%;
+    height: 3250px;
+    font-size: 35px;
+}
+#div12 h3{
+    margin-top: 10px;
+}
+#div12 #box11{
+   height: 100px;
+   width: 100px;
+   border: 3px solid;
+   text-align: center;
+   margin-left: 10px;
+   background-color: rgb(247, 92, 92); 
+   font-size: 2em;
+   animation-name: slideLeft;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+@keyframes slideLeft{
+    from{transform: translateX(1200px);}
+}
+#div12 #box12{
+   height: 100px;
+   width: 100px;
+   border: 3px solid;
+   text-align: center;
+   margin-left: 10px;
+   background-color: rgb(247, 92, 92); 
+   font-size: 2em;
+   animation-name: slideRight;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+@keyframes slideRight{
+    to{transform: translateX(1200px);}
+}
+#div12 #box13{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    text-align: center;
+    margin-left: 10px;
+    background-color: rgb(247, 92, 92); 
+    font-size: 2em;
+    animation-name: slideUp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes slideUp{
+    from{transform: translateY(80px);}
+}
+#div12 #box14{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    text-align: center;
+    margin-left: 10px;
+    background-color: rgb(247, 92, 92); 
+    font-size: 2em;
+    animation-name: slideDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes slideDown{
+    to{transform: translateY(80px);}
+}
+#div12 #box15{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    text-align: center;
+    margin-left: 10px;
+    background-color: rgb(247, 92, 92); 
+    font-size: 2em;
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorChange{
+    0%{background-color: rgb(247, 92, 92); }
+    20%{background-color: rgb(247, 180, 92); }
+    40%{background-color: rgb(221, 255, 96); }
+    60%{background-color: rgb(92, 247, 126); }
+    80%{background-color: rgb(92, 128, 247); }
+    100%{background-color: rgb(198, 92, 247); }
+}
+#div12 #box16{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: rgb(247, 92, 92); 
+    font-size: 2em;
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes grow{
+    100%{transform: scale(1.2);}
+}
+#div12 #box17{
+    height: 120px;
+    width: 120px;
+    border: 3px solid;
+    text-align: center;
+    margin-left: 5px;
+    background-color: rgb(247, 92, 92); 
+    font-size: 2em;
+    animation-name: shrink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes shrink{
+    100%{transform: scale(0.8);}
+}
+#div12 #box18{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    text-align: center;
+    margin-left: 5px;
+    background-color: rgb(247, 92, 92); 
+    font-size: 2em;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes fade{
+    100%{opacity: 0;}
+}
+#div12 #box19{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: rgb(247, 92, 92); 
+    font-size: 2em;
+    transition: all ease-in-out 1s;
+    display: block;
+}
+#div12 #box19:hover{
+    animation-name: glow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow{
+    100%{box-shadow: 0px 0px 50px rgb(85, 116, 250);}
+}
+#div12 #box20{
+    height: 600px;
+    width: 1300px;
+    border: 3px solid;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: rgb(247, 92, 92); 
+}
+#div12 #box20 #box21{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    text-align: center;
+    margin-left: 10px;
+    background-color: rgb(107, 245, 183);
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+ }
+ @keyframes slideLeft{
+     from{transform: translateX(400px);}
+}
+#div12 #box20 #box22{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    text-align: center;
+    margin-left: 10px;
+    background-color: rgb(107, 245, 183);
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+ @keyframes slideLeft{
+     from{transform: translateX(400px);}
+ }
+#footer{
+    background-color: black;
+    width: 1348px;
+    height: 270px;
+    color: black;
+    border: 3px solid;
+    position: relative;
+    top: 30px;
+    right: 7px;
+ }
+#fot{
+    border: 3px solid white;
+    position: relative;
+    top: 45px;
+    right: 7px;
+    width: 1348px;
+}
+#footer p{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 15px;
+}
